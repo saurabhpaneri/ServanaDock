@@ -92,6 +92,11 @@ Log file:
 
 ---
 
-💬 Feedback & Contributions
+## 💬 Feedback & Contributions
 
 Pull requests are welcome! Feel free to fork, improve, or suggest features via <a href= "https://github.com/saurabhpaneri/ServanaDock/issues">issues.</a>
+
+
+## 📜 License
+
+Licensed under the MIT License.
