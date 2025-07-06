@@ -1,27 +1,28 @@
 # <img src="https://raw.githubusercontent.com/saurabhpaneri/ServanaDock/main/ServanaDock.png" width="48"> ServanaDock
 
-ServanaDock is a lightweight Linux GUI tool for managing Apache and MySQL services with one click. It features a Zenity-powered interface, systemd integration, real-time logging, and an easy `.deb` installer.
+**ServanaDock** is a minimalist Linux GUI for managing Apache and MySQL services. It combines systemd control, Zenity dialogs, and real-time logging—packaged in a simple `.deb` installer.
 
 ---
 
 ## ✨ Features
 
-- ✅ Start / Stop / Restart Apache & MySQL
-- 📡 Monitor service status
-- 📝 View logs in your default editor
-- 🔐 Uses `pkexec` for secure privilege elevation
-- 📦 Packaged as a `.deb` for easy installation
+- ✅ One-click Start / Stop / Restart for Apache & MySQL  
+- 📡 Monitor service status in real time  
+- 📜 View logs in your default editor  
+- 🔐 Elevates securely via `pkexec`  
+- 📦 Packaged as a Debian installer (`.deb`) for easy setup  
 
 ---
 
 ## 📦 Installation
 
-### Download
+### 🧲 Download
 
-From the [Releases](https://github.com/saurabhpaneri/ServanaDock/releases):
+Grab it from [Releases](https://github.com/saurabhpaneri/ServanaDock/releases) or use:
 
 ```bash
 wget https://github.com/saurabhpaneri/ServanaDock/releases/download/v1.0/ServanaDock-v1.0.deb
+
 ```
 
 ### 📥 Install via terminal
@@ -36,11 +37,11 @@ sudo apt --fix-broken install
 
 ServanaDock requires:
 
-    zenity
+   🔹 zenity
 
-    xdg-utils
+   🔹 xdg-utils
 
-    dbus-x11 These will auto-install via package dependencies.
+   🔹 dbus-x11 These will auto-install via package dependencies.
 
 
 ## 🖼️ Launcher Setup
@@ -57,11 +58,9 @@ gio set ~/Desktop/ServanaDock.desktop metadata::trusted true
 
 Click the ServanaDock icon, and choose from the GUI:
 
-<img src="https://raw.githubusercontent.com/saurabhpaneri/ServanaDock/main/screenshots/sdGUImenu.png" alt="GUI menu" width="500">
+<table> <tr> <td><img src="https://raw.githubusercontent.com/saurabhpaneri/ServanaDock/main/screenshots/sdGUImenu.png" width="260"><br><sub><b>Main Menu</b></sub></td> <td><img src="https://raw.githubusercontent.com/saurabhpaneri/ServanaDock/main/screenshots/sdGUInotification.png" width="260"><br><sub><b>Notifications</b></sub></td> <td><img src="https://raw.githubusercontent.com/saurabhpaneri/ServanaDock/main/screenshots/sdGUIlog.png" width="260"><br><sub><b>Log Viewer</b></sub></td> </tr> </table>
 
-<img src="https://raw.githubusercontent.com/saurabhpaneri/ServanaDock/main/screenshots/sdGUInotification.png" alt="Notification" width="500">
-
-<img src="https://raw.githubusercontent.com/saurabhpaneri/ServanaDock/main/screenshots/sdGUIlog.png" alt="Clean Log" width="500">
+🔹 Available Actions
 
     ✅ Start or stop Apache/MySQL
 
@@ -87,7 +86,7 @@ Policy file:
 ```
 Log file:
 ```bash
-/home/USER/ServanaDock/logs/ServanaDock.log
+~/ServanaDock/logs/ServanaDock.log
 ```
 
 ---
